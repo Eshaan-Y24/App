@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+div {
+  width: 90%;
+  margin: 20px auto;
+  padding: 0;
+}
+
+/* -----------------CLASSES -----------------*/
+.iphone {
+  position: absolute;
+  right: 0.5%;
+  top: 20%;
+  z-index: 100;
+  width: 40vw;
+}
+
+.header {
+  background-color: #D87BFF;
+  margin: 0;
+  position: relative;
+  height: 13vh;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 0.5s;
+}
+
+.header a{
+  text-decoration: none;
+  margin: 0;
+}
+
+.header a:hover{
+  color:pink;
+}
+.nav a {
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "century gothic",sans-serif;
+  margin-left: 5vw;
+  text-decoration: none;
+  font-size: 2vmin;
+}
+
+.header h1{
+  color:white;
+  margin: 0;
+  position: absolute;
+  left: 2vw;
+  top: 2vh;
+  font-size: 3vmax;
+}
+.nav {
+  position: absolute;
+  right: 2vw;
+  top: 1.5vh;
+  margin: 0;
+  margin-left: auto;
+  display: inline-block;
+  width: auto;
+}
+
+/*----------MAIN1------------*/
+.main1 {
+  height: 50vh;
+  background-color: #FFB3DA;
+  position: relative;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.main1matter h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 7vw;
+}
+
+.main1matter h4 {
+  margin-top: 0;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
+.main1matter {
+  width: 50%;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+/*----------MAIN2------------*/
+.main2 {
+  height: 50vh;
+  background-color: #FFE1B3;
+  position: relative;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.main2matter {
+  margin: 0;
+  color: white;
+  width: 50%;
+  position: absolute;
+  left: 5%;
+  top: 7%;
+}
+
+.main2matter h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 5.1vw;
+}
+
+.playstore {
+  height: 10vw;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.appstore {
+  height: 20.5vw;
+  margin: 0;
+  position: absolute;
+  top: 28%;
+  left: 32%;
+}
+
+/*----------MAIN3------------*/
+
+.main3{
+  height:50vh;
+  background-color: #D8A4FF;
+  position: relative;
+  border-radius: 20px;
+  color: white;
+  transition: 0.25s;
+}
+
+.main3 h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 5.1vw;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+.main3 p{
+  margin: 0;
+}
+
+.dp{
+  height: 50px;
+  border-radius: 100%;
+}
+
+.reviews{
+  margin: 0;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  display: inline-block;
+  width:45%;
+}
+.reviews td{
+  vertical-align: top;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+.reviews h3{
+  margin: 0;
+}
+
+/*----------MAIN4------------*/
+
+.main4{
+  height:50vh;
+  background-color: #A4B0FF;
+  position: relative;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  padding: 0;
+  transition: 0.25s;
+}
+
+
+.main4matter{
+  width: 100%;
+}
+.inner{
+  display: inline-block;
+  width: 30%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px;
+  vertical-align: top;
+}
+
+
+/*----------FOOTER------------*/
+
+.footer{
+  background-color: #D87BFF;
+  margin: 0;
+  position: relative;
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 0.1%;
+  font-family: "century gothic", serif;
+}
+
+.footer h3{
+  display:inline-block;
+  margin: 0 5% 0 5%
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover{
+  color: pink;
+  font-weight: bold;
+}
+
+.copyright{
+  font-size: 14px;
+  color: #3f5257;
